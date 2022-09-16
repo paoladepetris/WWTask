@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-16T13:44:30.789Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4406250791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Positive testCase WW Studio Business Hours",
+        "description": "",
+        "id": "ww-studio;positive-testcase-ww-studio-business-hours",
+        "after": [
+          {
+            "result": {
+              "duration": 171223625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22332815875,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to WW Studio Finder page",
+            "match": {
+              "location": "step_definitions.i_navigate_to_WW_Studio_Finder_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 959864917,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on In-Person and type \"10011\" in search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10011\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.i_click_on_In_Person_and_type_in_search_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5979409166,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to see different locations",
+            "match": {
+              "location": "step_definitions.i_should_be_able_to_see_different_locations()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5524315458,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the first search result and click on Business Hours",
+            "match": {
+              "location": "step_definitions.i_click_on_the_first_search_result_and_click_on_Business_Hours()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202881917,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to see all the business hours for that studio",
+            "match": {
+              "location": "step_definitions.i_should_be_able_to_see_all_the_business_hours_for_that_studio()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC-01"
+          }
+        ]
+      }
+    ],
+    "name": "WW Studio",
+    "description": "",
+    "id": "ww-studio",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/workshopHours.feature",
+    "tags": []
+  }
+]
